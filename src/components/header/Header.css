@@ -84,15 +84,14 @@
     grid-template-columns: 1fr;
   }
   .headerMain {
-    height: 70vh;
+    height: 80vh;
   }
   .leftHero h1 {
-
     padding: 10px 10px;
     font-size: 60px;
   }
   .heroSection .rightHeroImg img {
     /* height: 15rem; */
-      max-height: 20rem;
-}
+    max-height: 18rem;
+  }
 }
