@@ -1,0 +1,98 @@
+.headerMain {
+  height: 50vh;
+  width: 100%;
+  background-color: white;
+  color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.navBar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.logo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* padding-top: 10px; */
+}
+@media only screen and (max-width: 682px) {
+  .navBar {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.menu {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+.navBar ul {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  padding: 10px;
+  padding: 0 10px;
+}
+.navBar ul li {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  padding: 10px;
+  padding: 0 10px;
+}
+
+.leftHero {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.leftHero h1 {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  padding-bottom: 90px;
+  font-size: 80px;
+}
+.heroSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.heroSection .rightHeroImg {
+  height: auto;
+  display: grid;
+  justify-items: center;
+  /* justify-content: center; */
+  /* justify-self: center; */
+  /* align-items: center; */
+}
+.heroSection .rightHeroImg img {
+  max-height: 25rem;
+}
+@media only screen and (max-width: 682px) {
+  .heroSection {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .headerMain {
+    height: 70vh;
+  }
+  .leftHero h1 {
+
+    padding: 10px 10px;
+    font-size: 60px;
+  }
+  .heroSection .rightHeroImg img {
+    /* height: 15rem; */
+      max-height: 20rem;
+}
+}
